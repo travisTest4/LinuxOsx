@@ -16,8 +16,8 @@ jobs:
       script:
         - clang -coverage -O0 hello_world.c -o hello_world
         - ./hello_world
-#     - os: osx
-#       arch: amd64
-#       script:
-#         - clang -coverage -O0 hello_world.c -o hello_world
-#         - ./hello_world
+    - os: osx
+      arch: amd64
+      script:
+        - clang -coverage -O0 hello_world.c -o hello_world
+        - ./hello_world
